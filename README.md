@@ -1,5 +1,7 @@
 # edge-u-cation
-Edge(u)cation: Cutting-edge multimodal LLMs on the edge with mistral.rs, using F8Q8
+Edge(u)cation: Cutting-edge multimodal LLMs on the edge with mistral.rs, using F8Q8.
+
+Model used: https://huggingface.co/EricB/Phi-3.5-vision-instruct-UQFF.
 
 ## F8Q8: 8-bit RTN-based blockwise nested quantization
 F8E4M3 diagram:
