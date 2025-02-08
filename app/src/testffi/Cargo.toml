@@ -1,0 +1,20 @@
+[package]
+name = "mistralrs-ffi"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+android_logger = "0.14.1"
+anyhow = "1.0.95"
+byteorder = "1.5.0"
+image = "0.25.5"
+include_dir = "0.7.4"
+jni = "0.21.1"
+log = "0.4.22"
+mistralrs = { git = "https://github.com/EricLBuehler/mistral.rs.git", version = "0.4.0", rev = "5656f24", features = ["arm-nightly-feat"] }
+reqwest = { version = "0.12.4", default-features = false, features = ["blocking", "rustls-tls", "charset", "http2", "macos-system-configuration"] }
+safetensors = "0.5.2"
+tokio = { version = "1.43.0", features = ["full"] }
+
+[lib]
+crate-type = ["cdylib"]
