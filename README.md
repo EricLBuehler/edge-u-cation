@@ -16,10 +16,10 @@ F8E4M3 diagram:
 
 <img src = https://github.com/user-attachments/assets/5de826f2-5c50-4a75-b9dd-f54b9e3e8d46 height = 75></img>
 
-F8Q8 uses:
-- Block size of 32
-- 8-bit RTN quantization without any zero point/bias
-- RTN scale $d$ is quantized to [F8E4M3](https://github.com/EricLBuehler/float8):
+F8Q8:
+- Uses a block size of 32
+- Is a form of 8-bit RTN quantization without any zero point/bias
+- Takes advantage of the observed range of the RTN scale $d$, to compress it into [F8E4M3](https://github.com/EricLBuehler/float8).
 
 ## Examples
 
