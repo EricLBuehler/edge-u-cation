@@ -1,4 +1,4 @@
-# edge-u-cation
+# LLMs on Edge: Novel Post-Training Quantization for Education Applications
 Edge(u)cation: Cutting-edge multimodal LLMs on the edge with mistral.rs, using F8Q8.
 
 Model used: https://huggingface.co/EricB/Phi-3.5-vision-instruct-UQFF.
